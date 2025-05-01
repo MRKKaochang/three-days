@@ -697,7 +697,15 @@ Save.onSave.add(function (save) {
 &lt;&lt;audio &quot;bgm4&quot; play loop&gt;&gt;
 &lt;&lt;/link&gt;&gt;
 &lt;br&gt;&lt;br&gt;
-[[返回开始界面|开始]]</tw-passagedata><tw-passagedata pid="4" name="StoryInit" tags="" position="0,0" size="100,100">&lt;&lt;cacheaudio &quot;bgm1&quot; &quot;audio/spring.mp3&quot;&gt;&gt;//音频1
+[[返回开始界面|开始]]</tw-passagedata><tw-passagedata pid="4" name="StoryInit" tags="" position="0,0" size="100,100">&lt;&lt;script&gt;&gt;
+var link = document.createElement(&#39;link&#39;);
+link.rel = &#39;icon&#39;;
+link.href = &#39;./favicon.ico&#39;;
+document.head.appendChild(link);
+&lt;&lt;/script&gt;&gt;
+
+
+&lt;&lt;cacheaudio &quot;bgm1&quot; &quot;audio/spring.mp3&quot;&gt;&gt;//音频1
 &lt;&lt;cacheaudio &quot;bgm2&quot; &quot;audio/tango.mp3&quot;&gt;&gt;//音频2
 &lt;&lt;cacheaudio &quot;bgm3&quot; &quot;audio/moon.mp3&quot;&gt;&gt;//音频3
 &lt;&lt;cacheaudio &quot;bgm4&quot; &quot;audio/gudian.mp3&quot;&gt;&gt;//音频4
